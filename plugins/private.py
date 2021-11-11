@@ -30,7 +30,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("📢 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("Source 📦", url=f"https://github.com/ZauteKm/VideoPlayerBot"),
+                InlineKeyboardButton("👉 OWNER 👈", url=f"https://t.me/Loltage"),
             ],
             [
                 InlineKeyboardButton("🤖 About", callback_data="about"),
@@ -55,7 +55,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🔙 BACK", callback_data="start"),
-                InlineKeyboardButton ("SUPPORT 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
+                InlineKeyboardButton ("SUPPORTXchannel 💬", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,7 +90,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("📢 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("Source 📦", url=f"https://github.com/ZauteKm/VideoPlayerBot"),
+                InlineKeyboardButton("👉 OWNER 👈", url=f"https://t.me/Loltage"),
             ],
             [
                 InlineKeyboardButton("🤖 About", callback_data="about"),
