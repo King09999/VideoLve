@@ -67,7 +67,7 @@ $ sudo apt install -y nodejs
 $ sudo apt install build-essential
 $ sudo npm install pm2@latest -g
 $ pip3 install -U -r requirements.txt
-# <create .env variables appropriately>
+$ ok.env
 $ python3 main.py
 ```
 
